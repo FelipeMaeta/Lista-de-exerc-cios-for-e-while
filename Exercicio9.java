@@ -1,11 +1,9 @@
 import java.util.Scanner;
-import java.util.Locale;
-
 public class Exercicio9 {
 
     public static void main(String[] args) {
 
-        Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
+        Scanner entrada = new Scanner(System.in);
 
         int codigo;
         int quantidade;
@@ -72,3 +70,4 @@ public class Exercicio9 {
         entrada.close();
     }
 }
+
