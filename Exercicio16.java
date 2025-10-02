@@ -1,11 +1,9 @@
 import java.util.Scanner;
-import java.util.Locale;
-
 public class Exercicio16 {
 
     public static void main(String[] args) {
 
-        Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
+        Scanner entrada = new Scanner(System.in);
 
         int totalPessoas = 10;
         int idade;
@@ -67,3 +65,4 @@ public class Exercicio16 {
         System.out.println("----------------------------------");
     }
 }
+
