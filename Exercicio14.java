@@ -1,11 +1,10 @@
 import java.util.Scanner;
-import java.util.Locale;
 
 public class Exercicio14 {
 
     public static void main(String[] args) {
 
-        Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
+        Scanner entrada = new Scanner(System.in);
 
         int totalAlunos = 6;
         double nota1;
@@ -58,3 +57,4 @@ public class Exercicio14 {
         System.out.println("----------------------------------");
     }
 }
+
