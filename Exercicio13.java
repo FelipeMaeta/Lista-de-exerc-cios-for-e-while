@@ -1,11 +1,10 @@
 import java.util.Scanner;
-import java.util.Locale;
 
 public class Exercicio13 {
 
     public static void main(String[] args) {
 
-        Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
+        Scanner entrada = new Scanner(System.in);
 
         int idade;
         double altura;
@@ -43,3 +42,4 @@ public class Exercicio13 {
         System.out.println("----------------------------------");
     }
 }
+
