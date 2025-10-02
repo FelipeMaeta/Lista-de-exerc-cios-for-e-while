@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Exercicio12 {
 
     public static void main(String[] args) {
@@ -20,4 +21,5 @@ public class Exercicio12 {
         entrada.close();
     }
 }
+
 
