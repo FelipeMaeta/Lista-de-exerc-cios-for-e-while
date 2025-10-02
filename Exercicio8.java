@@ -1,11 +1,10 @@
 import java.util.Scanner;
-import java.util.Locale;
 
 public class Exercicio8 {
 
     public static void main(String[] args) {
 
-        Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
+        Scanner entrada = new Scanner(System.in);
 
         double nota1;
         double nota2;
@@ -31,4 +30,5 @@ public class Exercicio8 {
         entrada.close();
     }
 }
+
 
