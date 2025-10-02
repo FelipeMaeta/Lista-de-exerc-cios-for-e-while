@@ -1,10 +1,9 @@
 import java.util.Scanner;
-import java.util.Locale;
 public class Exercicio12 {
 
     public static void main(String[] args) {
 
-        Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
+        Scanner entrada = new Scanner(System.in);
 
         System.out.print("Digite um número inteiro (limite da sequência): ");
         int limite = entrada.nextInt();
@@ -21,3 +20,4 @@ public class Exercicio12 {
         entrada.close();
     }
 }
+
