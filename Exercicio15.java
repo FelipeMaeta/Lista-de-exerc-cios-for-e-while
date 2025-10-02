@@ -1,10 +1,9 @@
 import java.util.Scanner;
-import java.util.Locale;
 public class Exercicio15 {
 
     public static void main(String[] args) {
 
-        Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
+        Scanner entrada = new Scanner(System.in);
 
         int totalEleitores = 10;
         int voto;
@@ -65,3 +64,4 @@ public class Exercicio15 {
         System.out.println("----------------------------------");
     }
 }
+
